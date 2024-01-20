@@ -42,13 +42,6 @@ export default function Home() {
               <Link href="/demos/basic-window">Basic Window</Link>
             </li>
           </ul>
-          <p className="text-lg">
-            Created by{" "}
-            <a href="http://vtlanglois.github.io" target="_blank" rel="noopener noreferrer">
-              Vincent Langlois
-            </a>
-            .
-          </p>
         </div>
       </div>
     </main>
