@@ -18,7 +18,7 @@ export default function RootLayout({ children }) {
         <main>{children}</main>
         <footer>
           <div className="window container mx-auto mt-10">
-            <div className="title-bar">
+            <div className="title-bar inactive">
               <div className="title-bar-text">Footer</div>
               <div className="title-bar-controls">
                 <button aria-label="Help"></button>

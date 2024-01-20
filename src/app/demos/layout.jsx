@@ -5,7 +5,7 @@ export default function DemoLayout({ children }) {
     <>
       {children}
       <div className="window container mx-auto mt-10">
-        <div className="title-bar">
+        <div className="title-bar inactive">
           <div className="title-bar-text"></div>
           <div className="title-bar-controls">
             <button aria-label="Help"></button>
