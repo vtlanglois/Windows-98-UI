@@ -33,15 +33,22 @@ export default function Home() {
               jdan
             </a>
             . Built using <span className="font-semibold">React</span>,{" "}
-            <span className="font-semibold">Next.js</span>, and {" "}
-            <span className="font-semibold">Tailwind</span>
+            <span className="font-semibold">Next.js</span>, and{" "}
+            <span className="font-semibold">Tailwind</span>.
           </p>
-          <h2 className="text-xl font-bold">Demos</h2>
-          <ul className="list-decimal">
+          <h2 className="text-xl font-bold mb-3">Demos</h2>
+          <ul className="list-decimal mb-3">
             <li className="ms-5 font-semibold text-lg">
               <Link href="/demos/basic-window">Basic Window</Link>
             </li>
           </ul>
+          <p className="text-lg">
+            Created by{" "}
+            <a href="http://vtlanglois.github.io" target="_blank" rel="noopener noreferrer">
+              Vincent Langlois
+            </a>
+            .
+          </p>
         </div>
       </div>
     </main>
