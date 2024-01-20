@@ -1,9 +1,21 @@
-import Image from "next/image";
+import "98.css";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <h1>Hello World!</h1>
+    <main>
+      <div className="window container mx-auto mt-10">
+        <div className="title-bar">
+          <div className="title-bar-text">A Window With Stuff In It</div>
+          <div className="title-bar-controls">
+            <button aria-label="Minimize"></button>
+            <button aria-label="Maximize"></button>
+            <button aria-label="Close"></button>
+          </div>
+        </div>
+        <div className="window-body">
+          <p>There's so much room for activities!</p>
+        </div>
+      </div>
     </main>
   );
 }
