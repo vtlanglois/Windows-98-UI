@@ -14,7 +14,8 @@ export default function Home() {
           </div>
         </div>
         <div className="window-body">
-          <p className="mb-5">
+          <h1 className="text-2xl font-bold mb-5">98.css Demos</h1>
+          <p className="mb-5 text-lg">
             A collection of demos using{" "}
             <a
               href="http://github.com/jdan/98.css"
@@ -31,10 +32,13 @@ export default function Home() {
             >
               jdan
             </a>
+            . Built using <span className="font-semibold">React</span>,{" "}
+            <span className="font-semibold">Next.js</span>, and {" "}
+            <span className="font-semibold">Tailwind</span>
           </p>
-          <h2 className="text-lg font-bold">Demos</h2>
+          <h2 className="text-xl font-bold">Demos</h2>
           <ul className="list-decimal">
-            <li className="ms-5 font-semibold">
+            <li className="ms-5 font-semibold text-lg">
               <Link href="/demos/basic-window">Basic Window</Link>
             </li>
           </ul>
