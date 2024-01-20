@@ -10,13 +10,16 @@ export default function Home() {
         </div>
       </div>
       <div className="window-body">
-        <p className="underline mb-3">
+        <p className="text-lg mb-3">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Id minima
           repudiandae assumenda distinctio, facere reiciendis provident
           corrupti, quos tempore fugit saepe quam est. Quos earum dolore,
           corrupti molestiae pariatur dolorem.
         </p>
-        <button>Agree</button>
+        <div className="text-end">
+          <button className="me-2">Agree</button>
+          <button>Disagree</button>
+        </div>
       </div>
     </div>
   );
