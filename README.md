@@ -1,7 +1,7 @@
 
 ## What is this?
 
-This is a Next.js/React repo for my UIs demos built using [7.css](https://github.com/jdan/98.css)
+This is a Next.js/React repo for my UI demos built using [7.css](https://github.com/jdan/98.css)
 
 ## Goals
 
