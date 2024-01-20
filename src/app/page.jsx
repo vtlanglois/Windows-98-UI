@@ -6,7 +6,7 @@ export default function Home() {
     <main>
       <div className="window container mx-auto mt-10">
         <div className="title-bar">
-          <div className="title-bar-text">A Window With Stuff In It</div>
+          <div className="title-bar-text">Home</div>
           <div className="title-bar-controls">
             <button aria-label="Minimize"></button>
             <button aria-label="Maximize"></button>
