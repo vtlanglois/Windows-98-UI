@@ -16,7 +16,7 @@ export default function RootLayout({ children }) {
       <body
         className={`${inter.className} bg-98-background bg-no-repeat bg-cover bg-fixed`}
       >
-        {children}
+        <main>{children}</main>
       </body>
       <footer>
         <div className="window container mx-auto mt-10">
@@ -28,10 +28,6 @@ export default function RootLayout({ children }) {
             </div>
           </div>
           <div className="window-body">
-            <p className="mb-5 text-lg">
-              Return to <Link href="/">Home</Link>
-            </p>
-
             <div className="columns-2">
               <p className="text-lg">
                 Created by{" "}

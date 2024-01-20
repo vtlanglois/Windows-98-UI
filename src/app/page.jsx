@@ -3,7 +3,6 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <main>
       <div className="window container mx-auto mt-10">
         <div className="title-bar">
           <div className="title-bar-text">Home</div>
@@ -44,6 +43,5 @@ export default function Home() {
           </ul>
         </div>
       </div>
-    </main>
   );
 }
