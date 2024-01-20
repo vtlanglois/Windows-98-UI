@@ -11,15 +11,36 @@ export default function Home() {
       </div>
       <div className="window-body">
         <p className="text-lg">
-          <dl className="columns-4 text-center">
-            <dt>:-)</dt>
-            <dd>Happy Face</dd>
-            <dt>:-(</dt>
-            <dd>Sad Face</dd>
-            <dt>;-)</dt>
-            <dd>Winking Face</dd>
-            <dt>:-o</dt>
-            <dd>Surprised Face</dd>
+          <dl className="grid grid-rows-4 grid-flow-col gap-4 text-center">
+            <div>
+              <dt>:-)</dt>
+              <dd>Happy Face</dd>
+            </div>
+            <div>
+              <dt>:-(</dt>
+              <dd>Sad Face</dd>
+            </div>
+            <div>
+              <dt>;-)</dt>
+              <dd>Winking Face</dd>
+            </div>
+            <div>
+              <dt>:-o</dt>
+              <dd>Surprised Face</dd>
+            </div>
+            <div>
+              <dt>XD</dt>
+              <dd>Laughing Face</dd>
+            </div>
+            <div>
+              <dt>{"<3"}</dt>
+              <dd>Heart</dd>
+            </div>
+            <div>
+              <dt>{"</3"}</dt>
+              <dd>Broken Heart</dd>
+            </div>
+            
           </dl>
         </p>
       </div>
