@@ -11,7 +11,7 @@ export default function Home() {
       </div>
       <div className="window-body">
         <p className="text-lg">
-          <dl className="grid grid-rows-4 grid-flow-col gap-4 text-center">
+          <dl className="grid grid-rows-3 grid-flow-col gap-4 text-center">
             <div>
               <dt>:-)</dt>
               <dd>Happy Face</dd>
@@ -44,7 +44,6 @@ export default function Home() {
               <dt>{"</3"}</dt>
               <dd>Broken Heart</dd>
             </div>
-            
           </dl>
         </p>
       </div>

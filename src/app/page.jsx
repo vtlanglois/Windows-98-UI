@@ -38,7 +38,7 @@ export default function Home() {
             <span className="font-semibold">Tailwind</span>.
           </p>
           <h2 className="text-xl font-bold mb-3">Demos</h2>
-          <ul className="list-decimal mb-3">
+          <ul className="list-[upper-roman] mb-3">
             <li className="ms-5 font-semibold text-lg">
               <Link href="/demos/basic-window">Basic Window</Link>
             </li>
