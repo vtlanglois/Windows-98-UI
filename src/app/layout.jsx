@@ -1,4 +1,5 @@
 import { Inter } from "next/font/google";
+import Link from "next/link";
 import "./globals.css";
 import "98.css";
 
@@ -28,7 +29,7 @@ export default function RootLayout({ children }) {
           </div>
           <div className="window-body">
             <p className="mb-5 text-lg">
-              Return to <a href="/">Home</a>
+              Return to <Link href="/">Home</Link>
             </p>
 
             <div className="columns-2">
