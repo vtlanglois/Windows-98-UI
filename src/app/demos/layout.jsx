@@ -14,7 +14,7 @@ export default function DemoLayout({ children }) {
         </div>
         <div className="window-body">
           <p className="mb-5 text-lg">
-            Return to <Link href="/">Home</Link>
+            Return to <Link href="/" className="font-semibold">Home</Link>
           </p>
         </div>
       </div>
