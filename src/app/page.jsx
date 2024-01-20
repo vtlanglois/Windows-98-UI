@@ -20,6 +20,7 @@ export default function Home() {
               href="http://github.com/jdan/98.css"
               target="_blank"
               rel="noopener noreferrer"
+              className="font-semibold"
             >
               98.css
             </a>{" "}
@@ -28,6 +29,7 @@ export default function Home() {
               href="https://github.com/jdan"
               target="_blank"
               rel="noopener noreferrer"
+              className="font-semibold"
             >
               jdan
             </a>

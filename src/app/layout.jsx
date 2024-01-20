@@ -34,6 +34,7 @@ export default function RootLayout({ children }) {
                     href="http://vtlanglois.github.io"
                     target="_blank"
                     rel="noopener noreferrer"
+                    className="font-semibold"
                   >
                     Vincent Langlois
                   </a>
@@ -44,6 +45,7 @@ export default function RootLayout({ children }) {
                     href="https://github.com/vtlanglois/Windows-98-UI"
                     target="_blank"
                     rel="noopener noreferrer"
+                    className="font-semibold float-end"
                   >
                     GitHub Repo
                   </a>
