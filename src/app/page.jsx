@@ -42,6 +42,9 @@ export default function Home() {
             <li className="ms-5 font-semibold text-lg">
               <Link href="/demos/basic-window">Basic Window</Link>
             </li>
+            <li className="ms-5 font-semibold text-lg">
+              <Link href="/demos/emoticons-display">Emoticons Display</Link>
+            </li>
           </ul>
         </div>
       </div>
