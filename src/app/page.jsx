@@ -15,7 +15,7 @@ export default function Home() {
         <div className="window-body">
           <h1 className="text-2xl font-bold mb-5">98.css Demos</h1>
           <p className="mb-5 text-lg">
-            A collection of demos using{" "}
+            A collection of UI and styling demos using{" "}
             <a
               href="http://github.com/jdan/98.css"
               target="_blank"

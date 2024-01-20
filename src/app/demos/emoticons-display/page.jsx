@@ -33,6 +33,10 @@ export default function Home() {
               <dd>Laughing Face</dd>
             </div>
             <div>
+              <dt>:'(</dt>
+              <dd>Weeping Face</dd>
+            </div>
+            <div>
               <dt>{"<3"}</dt>
               <dd>Heart</dd>
             </div>
