@@ -3,6 +3,7 @@ import Link from "next/link";
 
 export default function Home() {
   return (
+    <>
       <div className="window container mx-auto mt-10">
         <div className="title-bar">
           <div className="title-bar-text">Home</div>
@@ -48,5 +49,28 @@ export default function Home() {
           </ul>
         </div>
       </div>
+      <div className="window container mx-auto mt-10">
+        <div className="title-bar inactive">
+          <div className="title-bar-text">Contributions</div>
+          <div className="title-bar-controls">
+            <button aria-label="Help"></button>
+            <button aria-label="Close"></button>
+          </div>
+        </div>
+        <div className="window-body">
+          <h2 className="text-xl font-bold mb-3">Contributions</h2>
+          <p className="text-lg">
+            <a
+              href="https://github.com/jdan/98.css/pulls?q=is%3Apr+author%3Avtlanglois"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-bold"
+            >
+              View my open/merged PRs to 98.css.
+            </a>
+          </p>
+        </div>
+      </div>
+    </>
   );
 }
