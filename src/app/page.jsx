@@ -61,12 +61,12 @@ export default function Home() {
           <h2 className="text-xl font-bold mb-3">Contributions</h2>
           <p className="text-lg">
             <a
-              href="https://github.com/jdan/98.css/pulls?q=is%3Apr+author%3Avtlanglois"
+              href="https://github.com/jdan/98.css/pulls?q=author%3Avtlanglois"
               target="_blank"
               rel="noopener noreferrer"
               className="font-bold"
             >
-              View my open/merged PRs to 98.css.
+              View my contributions to 98.css.
             </a>
           </p>
         </div>
